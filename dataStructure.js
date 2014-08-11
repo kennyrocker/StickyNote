@@ -10,7 +10,12 @@
 {
 	"noteID": 101,
 	"ownerID": 1001,
-	"assigneeID": 1002
+	"assigneeID": [
+		1002, 1005
+	],
+	"editableID": [
+		1002
+	]
 }
 // Note Meta
 {
@@ -46,4 +51,8 @@
 		"video.mpeg",
 		"video.avi"
 	]
+}
+// Note Categories
+{
+	["Business", "Work", "Housekeeping", "Study"]
 }
